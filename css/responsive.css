@@ -27,7 +27,7 @@
     font-family: var(--Integral-CF-fonts);
     font-size: 25px !important;
     color: #000;
-    line-height: 50px;
+    line-height: 55px !important;
 }
 .mobile_nav {
     display: block !important;
