@@ -1,0 +1,899 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+
+/* header top css part start */
+
+.header_txt {
+    font-family: var(--satoshi-fonts);
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: left;
+}
+
+.header_txt a {
+    font-family: var(--satoshi-fonts);
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+/* header top css part  end */
+/* nav bar css part start  */
+.desktop_nav {
+    display: none;
+
+}
+.nav_brands {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 25px !important;
+    color: #000;
+    line-height: 50px;
+}
+.mobile_nav {
+    display: block !important;
+}
+/*  nav bar css part End */
+/* banner section css part start  */
+.banner_right {
+    width: 100%;
+    padding: 160px 0px;
+    background: url(../image/banner_main.png);
+    background-position: 100% 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner_heading {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 25px !important;
+    color: #000;
+    margin-bottom: 10px !important;
+    padding-top: 30px !important;
+    text-align: center;
+}
+
+.banner_txt {
+    display: block;
+    font-family: var(--satoshi-fonts);
+    font-size: 13px;
+    color: #000;
+    margin-bottom: 30px !important;
+    text-align: center;
+}
+
+.banner_btn {
+    padding: 12px 60px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    font-family: var(--satoshi-fonts);
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    text-align: center;
+
+}
+
+.start_big {
+    position: absolute;
+    top: 0% !important;
+    left: 70% !important;
+}
+
+.start_small {
+    position: absolute;
+    top: 20% !important;
+    left: 0%;
+}
+
+.counter {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 14px !important;
+    color: #000;
+}
+.project-title {
+    font-family: var(--satoshi-fonts);
+    font-size: 14px !important;
+    color: #000;
+    padding-bottom: 30px !important;
+}
+
+/* banner section css part End */
+/* brand section css part start  */
+.brand_main {
+    padding: 15px 0px;
+    background-color: #000;
+}
+.brand_txt {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 13px !important;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* arival section css part start  */
+.arival_main {
+    width: 100%;
+    padding: 20px 0px !important;
+}
+.arival_c_top{
+    margin-top: 10px !important;
+}
+.arival_b {
+    border-bottom: 1px solid #9A9A9A;
+    padding-bottom: 30px !important;
+}
+
+.section_heading {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 40px;
+    color: #000;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+.arival_c_top {
+    margin-bottom: 10px;
+}
+
+.a_p_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 13px !important;
+    color: #000;
+}
+
+.a_P_items {
+    font-size: 11px !important;
+    color: #FFC633;
+    margin-top: 5px;
+}
+
+.a_P_items_review {
+    margin-top: 5px;
+    font-family: var(--Integral-CF-fonts);
+    font-size: 11px !important;
+    color: #000;
+
+}
+
+.a_p_p {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.arival_btn {
+    padding: 8px 60px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 30px;
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    color: #000;
+}
+
+/* arival section css part End */
+/* BROWSE BY dress STYLE css part start  */
+.dress_style_main {
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 20px 20px !important;
+    border-radius: 30px;
+}
+
+.img_box {
+    height: auto !important;
+    margin-top: 10px;
+}
+
+.img_box img {
+    width: 100%;
+    height: 100%;
+}
+.padd-20{
+    margin-top: 20px;
+}
+
+.mar-10{
+    margin-top: 10px !important;
+}
+
+
+/* BROWSE BY dress STYLE css part end */
+/* review section html css part start  */
+.page_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 18px !important;
+    color: #000;
+    padding-top: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px !important;
+}
+
+/* slider section css part start  */
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+    flex: 1 0 90% !important;
+    /* 20% width for 5 items in view */
+    padding: 25px;
+    background: #fff;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 1%;
+}
+
+.slide_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 25px;
+    margin: 5px 0px;
+    color: #000;
+}
+
+.slide_txt {
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    color: #000;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 12% !important;
+    transform: translateY(-50%);
+    color: #000;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev-btn {
+    right: 60px !important;
+}
+
+.next-btn {
+    right: 20px !important;
+}
+
+/* slider section css part end */
+/* review section html css part end */
+/* news later css part start  */
+.news_main {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px !important;
+
+}
+
+.news_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 20px !important;
+    color: #fff;
+    padding-right: 00px !important;
+    padding-left: 00px !important;
+    text-align: center !important;
+}
+
+.news_input {
+    width: 100% !important;
+    margin: 0 auto;
+    position: relative;
+}
+
+.input_placeholder {
+    position: absolute;
+    top: 19px;
+    left: 14px;
+    font-size: 18px;
+    color: #000;
+}
+
+.input_placeholder i {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.news_input input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 20px 0px 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.news_input input::placeholder {
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.news_btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: var(--Integral-CF-fonts);
+    font-size: 16px;
+    color: #000;
+
+
+}
+
+/* news later css part end */
+/* foter section css part start  */
+footer {
+    margin-top: 20px !important;
+    padding-bottom: 10px !important;
+
+}
+
+.footer_text {
+    font-family: var(--satoshi-fonts);
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.footer_social_icon_box {
+    margin-top: 15px !important;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    margin-right: 10px !important;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: #000;
+    font-size: 14px !important;
+    transition: all linear 0.3s;
+    margin-bottom: 30px !important;
+
+}
+
+.icon-link:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+
+.footer_link_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 20px;
+    color: #000;
+}
+
+.footer_nav li {
+    margin-top: 10px;
+}
+
+.footer_nav_items {
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+}
+
+.footer_bottom {
+    padding: 30px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.footer_bottom_text {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 11px !important;
+    color: #000;
+    text-align: center !important;
+}
+
+/* foter section css part end */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* header top css part start */
+
+    .header_txt {
+        font-family: var(--satoshi-fonts);
+        font-size: 16px !important;
+        letter-spacing: 1px;
+        color: #fff;
+        text-align: left;
+    }
+
+    .header_txt a {
+        font-family: var(--satoshi-fonts);
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+    /* header top css part  end */
+    /* nav bar css part start  */
+    .desktop_nav {
+        display: none;
+
+    }
+    .nav_brands {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 25px !important;
+        color: #000;
+        line-height: 50px;
+    }
+    .mobile_nav {
+        display: block !important;
+    }
+    /*  nav bar css part End */
+    /* banner section css part start  */
+    .banner_right {
+        width: 100%;
+        padding: 160px 0px;
+        background: url(../image/banner_main.png);
+        background-position: 140%  100%!important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .banner_heading {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 30px !important;
+        color: #000;
+        margin-bottom: 10px !important;
+        padding-top: 30px !important;
+        text-align: center;
+    }
+
+    .banner_txt {
+        display: block;
+        font-family: var(--satoshi-fonts);
+        font-size: 13px;
+        color: #000;
+        margin-bottom: 30px !important;
+        text-align: center;
+    }
+
+    .banner_btn {
+        padding: 12px 60px;
+        background-color: var(--primary-color);
+        border-radius: 30px;
+        font-family: var(--satoshi-fonts);
+        font-size: 16px;
+        color: #fff;
+        text-transform: capitalize;
+        display: block;
+        text-align: center;
+
+    }
+
+    .start_big {
+        position: absolute;
+        top: 0% !important;
+        left: 85% !important;
+    }
+    .start_small {
+        position: absolute;
+        top: 20% !important;
+        left: 0%;
+    }
+
+    .counter {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 20px !important;
+        color: #000;
+    }
+    .project-title {
+        font-family: var(--satoshi-fonts);
+        font-size: 20px !important;
+        color: #000;
+        padding-bottom: 30px !important;
+    }
+
+    /* banner section css part End */
+    /* brand section css part start  */
+    .brand_main {
+        padding: 15px 0px;
+        background-color: #000;
+    }
+    .brand_txt {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 13px !important;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    /* arival section css part start  */
+    .arival_main {
+        width: 100%;
+        padding: 20px 0px !important;
+    }
+    .arival_c_top{
+        margin-top: 10px !important;
+    }
+    .arival_b {
+        border-bottom: 1px solid #9A9A9A;
+        padding-bottom: 30px !important;
+    }
+
+    .section_heading {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 40px;
+        color: #000;
+        padding-bottom: 30px;
+        text-transform: uppercase;
+
+    }
+
+    .arival_c_top {
+        margin-bottom: 10px;
+    }
+
+    .a_p_title {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 13px !important;
+        color: #000;
+    }
+
+    .a_P_items {
+        font-size: 11px !important;
+        color: #FFC633;
+        margin-top: 5px;
+    }
+
+    .a_P_items_review {
+        margin-top: 5px;
+        font-family: var(--Integral-CF-fonts);
+        font-size: 11px !important;
+        color: #000;
+
+    }
+
+    .a_p_p {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 14px;
+        color: #000;
+        margin-top: 5px;
+    }
+
+    .arival_btn {
+        padding: 8px 60px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 30px;
+        font-family: var(--satoshi-fonts);
+        font-size: 18px;
+        color: #000;
+    }
+
+    /* arival section css part End */
+    /* BROWSE BY dress STYLE css part start  */
+    .dress_style_main {
+        width: 100%;
+        background-color: #F0F0F0;
+        padding: 20px 20px !important;
+        border-radius: 30px;
+    }
+
+    .img_box {
+        height: auto !important;
+        margin-top: 10px;
+    }
+
+    .img_box img {
+        width: 100%;
+        height: 100%;
+    }
+    .padd-20{
+        margin-top: 20px;
+    }
+    .mar-10{
+        margin-top: 20px !important;
+    }
+
+    /* BROWSE BY dress STYLE css part end */
+    /* review section html css part start  */
+    .page_title {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 18px !important;
+        color: #000;
+        padding-top: 30px;
+        text-transform: uppercase;
+        margin-bottom: 20px !important;
+    }
+
+    /* slider section css part start  */
+    .slider-container {
+        position: relative;
+        width: 100%;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .slide {
+        flex: 1 0 90% !important;
+        /* 20% width for 5 items in view */
+        padding: 25px;
+        background: #fff;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        margin: 1%;
+    }
+
+    .slide_title {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 25px;
+        margin: 5px 0px;
+        color: #000;
+    }
+
+    .slide_txt {
+        font-family: var(--satoshi-fonts);
+        font-size: 18px;
+        color: #000;
+    }
+
+    .prev-btn,
+    .next-btn {
+        position: absolute;
+        top: 12% !important;
+        transform: translateY(-50%);
+        color: #000;
+        background-color: transparent;
+        border: none;
+        font-size: 25px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .prev-btn {
+        right: 60px !important;
+    }
+
+    .next-btn {
+        right: 20px !important;
+    }
+
+    /* slider section css part end */
+    /* review section html css part end */
+    /* news later css part start  */
+    .news_main {
+        background-color: #000;
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 30px !important;
+
+    }
+
+    .news_title {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 20px !important;
+        color: #fff;
+        padding-right: 00px !important;
+        padding-left: 00px !important;
+        text-align: center !important;
+    }
+
+    .news_input {
+        width: 100% !important;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .input_placeholder {
+        position: absolute;
+        top: 19px;
+        left: 14px;
+        font-size: 18px;
+        color: #000;
+    }
+
+    .input_placeholder i {
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+    .news_input input {
+        width: 100%;
+        height: 40px;
+        padding: 0px 20px 0px 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+
+    .news_input input::placeholder {
+        font-family: var(--satoshi-fonts);
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+    .news_btn {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-family: var(--Integral-CF-fonts);
+        font-size: 16px;
+        color: #000;
+
+
+    }
+
+    /* news later css part end */
+    /* foter section css part start  */
+    footer {
+        margin-top: 20px !important;
+        padding-bottom: 10px !important;
+
+    }
+
+    .footer_text {
+        font-family: var(--satoshi-fonts);
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+    }
+
+    .footer_social_icon_box {
+        margin-top: 15px !important;
+    }
+
+    .icon-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 50%;
+        margin-right: 10px !important;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        color: #000;
+        font-size: 14px !important;
+        transition: all linear 0.3s;
+        margin-bottom: 30px !important;
+
+    }
+
+    .icon-link:hover {
+        background-color: #000;
+        color: #fff;
+        transition: all linear 0.3s;
+    }
+
+    .footer_link_title {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 20px;
+        color: #000;
+    }
+
+    .footer_nav li {
+        margin-top: 10px;
+    }
+
+    .footer_nav_items {
+        font-family: var(--satoshi-fonts);
+        font-size: 18px;
+        line-height: 26px;
+        color: #000;
+    }
+
+    .footer_bottom {
+        padding: 00px 0px !important;
+        padding-top: 30px !important;
+        border-top: 1px solid rgba(0, 0, 0, 0.6);
+    }
+
+    .footer_bottom_text {
+        font-family: var(--Integral-CF-fonts);
+        font-size: 11px !important;
+        color: #000;
+        text-align: center !important;
+    }
+
+    /* foter section css part end */
+
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1199px) {
+
+ /* nav bar css part start  */
+ .desktop_nav {
+    display: none;
+
+}
+.nav_brands {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 25px !important;
+    color: #000;
+    line-height: 50px;
+}
+.mobile_nav {
+    display: block !important;
+}
+/*  nav bar css part End */
+/* banner section css part start  */
+.banner_right {
+    width: 100%;
+    padding: 160px 0px;
+    background: url(../image/banner_main.png);
+    background-position: 85%  100%!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* banner section css part End */
+/* BROWSE BY dress STYLE css part start  */
+.dress_style_main {
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 30px 30px !important;
+    border-radius: 30px;
+}
+
+.img_box {
+    height: auto !important;
+    margin-top: 10px;
+}
+
+.img_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.mar-10{
+    margin-top: 10px !important;
+}
+
+/* BROWSE BY dress STYLE css part end */
+.slide {
+    flex: 1 0 49% !important;
+    /* 20% width for 5 items in view */
+    padding: 25px;
+    background: #fff;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 1%;
+}
+.footer_bottom_text{
+        text-align: center !important;
+}
+.footer_bottom{
+    overflow: hidden;
+
+}
+    }

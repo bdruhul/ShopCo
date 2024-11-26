@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Website title -->
+  <title>ShopCo || E-commarce</title>
+  <!-- Css style link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- css style link end -->
+</head>
+
+<body>
+  <!-- header top html part start  -->
+  <div class="h_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-10">
+          <div class="header_top_content text-center">
+            <p class="header_txt">Sign up and get 20% off to your first order. <a href="#">Sign Up Now</a></p>
+          </div>
+        </div>
+        <div class="col-2">
+          <button class="header_top_btn" onclick="headerTop()"><i class="fa-solid fa-x"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header top html part end -->
+  <!-- desktop navbar section html part start  -->
+  <section class="desktop_nav">
+    <nav>
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-2"><a href="index.html" class="nav_brands">SHOP.CO</a></div>
+          <div class="col-3">
+            <ul class="nav_list d-flex justify-content-between align-items-center">
+              <li><a href="#" class="nav_items">Shop<i class="fa-solid fa-angle-down"></i></a></li>
+              <li><a href="#" class="nav_items">On Sale</a></li>
+              <li><a href="#" class="nav_items">New Arrivals</a></li>
+              <li><a href="#" class="nav_items">Brands</a></li>
+            </ul>
+          </div>
+          <div class="col-5">
+            <div class="nav_input position-relative">
+              <input type="search" name="" id="" placeholder="Search for products...">
+              <button type="submit" class="position-absolute"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="nav_icon_box">
+              <a href="#" class="me-2"><img src="./image/addtocart.png" alt=""></a>
+              <a href="#"><img src="./image/user.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- desktop navbar section html part End -->
+  <!-- mobile navbar html part start  -->
+  <section class="mobile_nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-2 mt-2 text-center">
+          <div class="mobile_toggle d-inline-block" onclick="toggleNav()">
+            <p></p>
+          </div>
+        </div>
+        <div class="col-4"><a href="index.html" class="nav_brands">SHOP.CO</a></div>
+        <div class="col-6">
+          <div class="nav_icon_box text-end m_nav_icon_box">
+            <a href="#" class="me-2"><img src="./image/search_icon.png" alt=""></a>
+            <a href="#" class="me-2"><img src="./image/addtocart.png" alt=""></a>
+            <a href="#"><img src="./image/user.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile_nav_content">
+      <div class="nav_close_btn" onclick="closeNav()">
+        <p></p>
+      </div>
+      <div class="m_nav_list">
+        <ul>
+          <li><a href="#" class="nav_items">Shop</a></li>
+          <li><a href="#" class="nav_items">On Sale</a></li>
+          <li><a href="#" class="nav_items">New Arrivals</a></li>
+          <li><a href="#" class="nav_items">Brands</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- mobile navbar html part end -->
+  <!-- banner section html part start  -->
+  <section class="banner_main position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1 class="banner_heading">
+            FIND CLOTHES THAT MATCHES YOUR STYLE
+          </h1>
+          <p class="banner_txt">
+            Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality
+            and cater to your sense of style.
+          </p>
+          <a href="#" class="banner_btn">shop now</a>
+          <!-- counter section html part start  -->
+          <div class="counter-container d-flex justify-content-between align-items-center mt-5">
+            <div class="counter-item">
+              <div class="counter" data-target="200">0</div>
+              <div class="project-title">International Brands</div>
+            </div>
+            <div class="counter-item">
+              <div class="counter" data-target="2000">0</div>
+              <div class="project-title">High-Quality Products</div>
+            </div>
+            <div class="counter-item">
+              <div class="counter" data-target="30000">0</div>
+              <div class="project-title">Happy Customers</div>
+            </div>
+          </div>
+          <!-- counter section html part end -->
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="banner_right">
+            <!-- start section banner -->
+            <img src="./image/start_big.png" alt="" class="start_big">
+            <img src="./image/start_small.png" alt="" class="start_small">
+            <!-- start section banner -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner section html part End -->
+  <!-- brand section html part start  -->
+  <section class="brand_main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="brand_content d-flex justify-content-between align-items-center">
+            <div class="brand_list">
+              <h1 class="brand_txt">Versace</h1>
+            </div>
+            <div class="brand_list">
+              <h1 class="brand_txt">zara</h1>
+            </div>
+            <div class="brand_list">
+              <h1 class="brand_txt">gucci</h1>
+            </div>
+            <div class="brand_list">
+              <h1 class="brand_txt">prada</h1>
+            </div>
+            <div class="brand_list">
+              <h1 class="brand_txt">calvin clein</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- brand section html part end -->
+  <!-- arival section html part start  -->
+  <section class="arival_main">
+    <div class="container arival_b">
+      <!-- section heading part hmtl start  -->
+      <div class="row">
+        <div class="col-12">
+          <h1 class="section_heading text-center">NEW ARRIVALS</h1>
+        </div>
+      </div>
+      <!-- section heading part hmtl end -->
+      <!-- arival section content html part start  -->
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <!-- arival-content box html part start  -->
+          <div class="arival_content">
+            <div class="arival_c_top">
+              <img src="./image/arival-1.png" alt="" srcset="" class="w-100 img-fluid rounded">
+            </div>
+            <a href="#" class="a_p_title">T-SHIRT WITH TAPE DETAILS</a>
+            <ul class="a_p_review d-flex justify-content-start align-items-center ">
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star-half"></i></li>
+              <li class="a_P_items_review me-2">4.5/5</li>
+            </ul>
+            <p class="a_p_p">$120</p>
+          </div>
+          <!-- arival-content box html part End -->
+        </div>
+        <div class="col-6 col-md-3">
+          <!-- arival-content box html part start  -->
+          <div class="arival_content">
+            <div class="arival_c_top">
+              <img src="./image/arival-2.png" alt="" srcset="" class="w-100 img-fluid rounded">
+            </div>
+            <a href="#" class="a_p_title">SKINNY FIT JEANS</a>
+            <ul class="a_p_review d-flex justify-content-start align-items-center ">
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star-half"></i></li>
+              <li class="a_P_items_review me-2">3.5/5</li>
+            </ul>
+            <p class="a_p_p">$240</p>
+          </div>
+          <!-- arival-content box html part End -->
+        </div>
+        <div class="col-6 col-md-3">
+          <!-- arival-content box html part start  -->
+          <div class="arival_content">
+            <div class="arival_c_top">
+              <img src="./image/arival-3.png" alt="" srcset="" class="w-100 img-fluid rounded">
+            </div>
+            <a href="#" class="a_p_title">CHECKERED SHIRT</a>
+            <ul class="a_p_review d-flex justify-content-start align-items-center ">
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star-half"></i></li>
+              <li class="a_P_items_review me-2">4.5/5</li>
+            </ul>
+            <p class="a_p_p">$180</p>
+          </div>
+          <!-- arival-content box html part End -->
+        </div>
+        <div class="col-6 col-md-3">
+          <!-- arival-content box html part start  -->
+          <div class="arival_content">
+            <div class="arival_c_top">
+              <img src="./image/arival-4.png" alt="" srcset="" class="w-100 img-fluid rounded">
+            </div>
+            <a href="#" class="a_p_title">SLEEVE STRIPED T-SHIRT</a>
+            <ul class="a_p_review d-flex justify-content-start align-items-center ">
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star-half"></i></li>
+              <li class="a_P_items_review me-2">$130</li>
+            </ul>
+            <p class="a_p_p">$120</p>
+          </div>
+          <!-- arival-content box html part End -->
+        </div>
+      </div>
+      <!-- arival button section html part start  -->
+      <div class="row">
+        <div class="col-12">
+          <div class="arival_btn_main mt-5 text-center">
+            <a href="#" class="arival_btn">
+              View All
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- arival button section html part End -->
+    </div>
+  </section>
+  <!-- arival section html part End -->
+  <!-- arival section html part start  -->
+  <section class="arival_main">
+    <div class="container">
+      <!-- section heading part hmtl start  -->
+      <div class="row">
+        <div class="col-12">
+          <h1 class="section_heading text-center">top selling</h1>
+        </div>
+      </div>
+      <!-- section heading part hmtl end -->
+      <!-- arival section content html part start  -->
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <!-- arival-content box html part start  -->
+          <div class="arival_content">
+            <div class="arival_c_top">
+              <img src="./image/top_selling-1.png" alt="" srcset="" class="w-100 img-fluid rounded">
+            </div>
+            <a href="#" class="a_p_title">VERTICAL STRIPED SHIRT</a>
+            <ul class="a_p_review d-flex justify-content-start align-items-center ">
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star-half"></i></li>
+              <li class="a_P_items_review me-2">4.5/5</li>
+            </ul>
+            <p class="a_p_p">$212</p>
+          </div>
+          <!-- arival-content box html part End -->
+        </div>
+        <div class="col-6 col-md-3">
+          <!-- arival-content box html part start  -->
+          <div class="arival_content">
+            <div class="arival_c_top">
+              <img src="./image/top_selling-2.png" alt="" srcset="" class="w-100 img-fluid rounded">
+            </div>
+            <a href="#" class="a_p_title">COURAGE GRAPHIC T-SHIRT</a>
+            <ul class="a_p_review d-flex justify-content-start align-items-center ">
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star-half"></i></li>
+              <li class="a_P_items_review me-2">3.5/5</li>
+            </ul>
+            <p class="a_p_p">$145</p>
+          </div>
+          <!-- arival-content box html part End -->
+        </div>
+        <div class="col-6 col-md-3">
+          <!-- arival-content box html part start  -->
+          <div class="arival_content">
+            <div class="arival_c_top">
+              <img src="./image/top_selling-3.png" alt="" srcset="" class="w-100 img-fluid rounded">
+            </div>
+            <a href="#" class="a_p_title">LOOSE FIT BERMUDA SHORTS</a>
+            <ul class="a_p_review d-flex justify-content-start align-items-center ">
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star-half"></i></li>
+              <li class="a_P_items_review me-2">4.5/5</li>
+            </ul>
+            <p class="a_p_p">$80</p>
+          </div>
+          <!-- arival-content box html part End -->
+        </div>
+        <div class="col-6 col-md-3">
+          <!-- arival-content box html part start  -->
+          <div class="arival_content">
+            <div class="arival_c_top">
+              <img src="./image/top_selling-4.png" alt="" srcset="" class="w-100 img-fluid rounded">
+            </div>
+            <a href="#" class="a_p_title">FADED SKINNY JEANS</a>
+            <ul class="a_p_review d-flex justify-content-start align-items-center ">
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+              <li class="a_P_items me-2"><i class="fa-solid fa-star-half"></i></li>
+              <li class="a_P_items_review me-2">$130</li>
+            </ul>
+            <p class="a_p_p">$210</p>
+          </div>
+          <!-- arival-content box html part End -->
+        </div>
+      </div>
+      <!-- arival button section html part start  -->
+      <div class="row">
+        <div class="col-12">
+          <div class="arival_btn_main mt-5 text-center">
+            <a href="#" class="arival_btn">
+              View All
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- arival button section html part End -->
+    </div>
+  </section>
+  <!-- arival section html part End -->
+  <!-- BROWSE BY dress STYLE html part start  -->
+  <section>
+    <div class="container">
+      <div class="dress_style_main">
+        <!-- section heading part hmtl start  -->
+        <div class="row">
+          <div class="col-12">
+            <h1 class="section_heading text-center">BROWSE BY dress STYLE</h1>
+          </div>
+        </div>
+        <!-- section heading part hmtl end -->
+        <!-- sress style img box html part start  -->
+        <div class="img_box">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img src="./image/casual.png" alt="" srcset="" class="w-100 img-fluid">
+            </div>
+            <div class="col-12 col-md-8  padd-20">
+              <img src="./image/formal.png" alt="" srcset="" class="w-100 img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="img_box">
+          <div class="row">
+            <div class="col-12 col-md-8  padd-20 mar-10">
+              <img src="./image/party.png" alt="" srcset="" class="w-100 img-fluid">
+            </div>
+            <div class="col-12 col-md-4 padd-20 mar-10">
+              <img src="./image/gym.png" alt="" srcset="" class="w-100 img-fluid">
+            </div>
+          </div>
+        </div>
+        <!-- sress style img box html part end  -->
+      </div>
+    </div>
+  </section>
+  <!-- BROWSE BY dress STYLE html part End -->
+  <!-- review section html part start  -->
+  <section>
+    <!-- slider section html part start  -->
+    <div class="slider-container">
+      <div class="container">
+        <!-- review section title html part start  -->
+        <h1 class="page_title">OUR HAPPY CUSTOMERS</h1>
+        <!-- review section title html part End -->
+
+      </div>
+      <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="slider">
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+        <div class="slide">
+          <ul class="a_p_review d-flex justify-content-start align-items-center ">
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+            <li class="a_P_items me-2"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <p class="slide_title">Sarah M. <img src="./image/blue tik.png" alt="" srcset=""></p>
+          <p class="slide_txt">"I'm blown away by the quality and style of the clothes I received from Shop.co. From
+            casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+        </div>
+      </div>
+      <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <!-- slider section html part end -->
+  </section>
+  <!-- review section html part end  -->
+  <!-- newslater section html part  -->
+  <section>
+    <div class="container">
+      <div class="news_main">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p class="news_title">STAY UPTO DATE ABOUT OUR LATEST OFFERS</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="news_input">
+              <input type="email" name="" id="" placeholder="Enter your email address">
+              <p class="input_placeholder"><i class="fa-regular fa-envelope"></i></p>
+              <button type="submit" class="news_btn">Subscribe to Newsletter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- newslater section html end -->
+  <!-- footer section html part start  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="footer_logo">
+            <div class="col-2"><a href="index.html" class="nav_brands">SHOP.CO</a></div>
+            <p class="footer_text">We have clothes that suits your style and which you’re proud to wear. From women to
+              men.</p>
+            <div class="footer_social_icon_box">
+              <ul class="d-flex justify-content-start align-items-center">
+                <li><a href="#" class="icon-link"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" class="icon-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#" class="icon-link"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" class="icon-link"><i class="fa-brands fa-github"></i></a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <div class="footer_nav_main">
+            <p class="footer_link_title">Company</p>
+            <ul class="footer_nav">
+              <li><a href="#" class="footer_nav_items">About</a></li>
+              <li><a href="#" class="footer_nav_items">Features</a></li>
+              <li><a href="#" class="footer_nav_items">Works</a></li>
+              <li><a href="#" class="footer_nav_items">Career</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <div class="footer_nav_main">
+            <p class="footer_link_title">Help</p>
+            <ul class="footer_nav">
+              <li><a href="#" class="footer_nav_items">Customer Support</a></li>
+              <li><a href="#" class="footer_nav_items">Delivery Details</a></li>
+              <li><a href="#" class="footer_nav_items">Terms &amp;Conditions</a></li>
+              <li><a href="#" class="footer_nav_items">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <div class="footer_nav_main">
+            <p class="footer_link_title">FAQ</p>
+            <ul class="footer_nav">
+              <li><a href="#" class="footer_nav_items">Account</a></li>
+              <li><a href="#" class="footer_nav_items">Manage Deliveries</a></li>
+              <li><a href="#" class="footer_nav_items">Orders</a></li>
+              <li><a href="#" class="footer_nav_items">Payments</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="footer_nav_main">
+            <p class="footer_link_title">Resources</p>
+            <ul class="footer_nav">
+              <li><a href="#" class="footer_nav_items">Free eBooks</a></li>
+              <li><a href="#" class="footer_nav_items">Development Tutorial</a></li>
+              <li><a href="#" class="footer_nav_items">How to - Blog</a></li>
+              <li><a href="#" class="footer_nav_items">Youtube Playlist</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer bottom copyright section html part start  -->
+  <div class="container">
+    <div class="footer_bottom">
+      <div class="row">
+        <div class="col-12 col-lg-9">
+          <p class="footer_bottom_text">Shop.co &copy; 2024, All Rights Reserved By Md.Ruhul Amin</p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <div class="f_b_img_box d-flex justify-content-between align-items-center">
+            <a href="#"><img src="./image/visa.png" alt="" srcset=""></a>
+            <a href="#"><img src="./image/master.png" alt="" srcset=""></a>
+            <a href="#"><img src="./image/paypal.png" alt="" srcset=""></a>
+            <a href="#"><img src="./image/ipay.png" alt="" srcset=""></a>
+            <a href="#"><img src="./image/gpay.png" alt="" srcset=""></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer bottom copyright section html part end -->
+  <!-- footer section html part end -->
+  <!-- bootstrap and Js file link -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- bootstrap and Js file link -->
+</body>
+
+</html>

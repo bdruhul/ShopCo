@@ -1,0 +1,679 @@
+/* Google Font css link */
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+/* Google Font css link */
+
+/* Root color and font family */
+:root {
+    --satoshi-fonts: "Neuton", serif;
+    --Integral-CF-fonts: "Candal", sans-serif;
+    --primary-color: #000;
+
+}
+
+/* Root color and font family */
+/* basic css desing file */
+/* Target all browsers */
+input[type=number] {
+    -moz-appearance: textfield;
+    /* For Firefox */
+    -webkit-appearance: none;
+    /* For Chrome, Safari, Edge */
+    appearance: none;
+    /* For modern browsers */
+}
+
+/* Optional: Hide the up/down arrows in WebKit-based browsers (like Chrome) */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+}
+
+body,
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+span,
+table,
+footer,
+nav,
+div,
+section {
+    padding: 0;
+    margin: 0;
+}
+
+/* basic css style desing ended */
+
+/* header top css part start */
+.h_top {
+    padding: 10px 0px;
+    background-color: var(--primary-color);
+}
+
+.h_top_click {
+    display: none;
+}
+
+.header_txt {
+    font-family: var(--satoshi-fonts);
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.header_txt a {
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.header_top_btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* header top css part  end */
+/* desktop nav bar css part start  */
+.desktop_nav {
+    padding: 10px 0px;
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    transition: background-color linear 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.nav_brands {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 35px;
+    color: #000;
+}
+
+.nav_items {
+    font-family: var(--satoshi-fonts);
+    font-size: 16px;
+    color: #000;
+
+}
+
+.nav_items i {
+    margin-left: 5px;
+}
+
+.nav_input input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #F0F0F0;
+    padding: 0px 20px 0px 35px;
+    border-radius: 30px;
+}
+
+.nav_input button {
+
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 0;
+}
+
+/* desktop nav bar css part End */
+/* mobile navbar css part start  */
+
+.mobile_nav {
+    display: none;
+}
+
+.mobile_toggle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+   margin-top: 13px;
+    cursor: pointer;
+
+}
+
+.mobile_toggle p {
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    position: relative;
+    border-radius: 3px;
+}
+
+.mobile_toggle p::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 7px;
+    left: 0;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.mobile_toggle p::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    bottom: 7px;
+    left: 0;
+    background-color: #000;
+}
+
+.m_nav_icon_box {
+    margin-top: 13px;
+}
+
+.mobile_nav_content {
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 222222;
+    padding: 20px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.nav_close_btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav_close_btn p {
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    border-radius: 3px;
+    transform: rotate(45deg);
+}
+
+.nav_close_btn p::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    border-radius: 3px;
+    transform: rotate(90deg);
+}
+
+.m_nav_list{
+    text-align: center;
+    margin-top: 30px;
+}
+.m_nav_list ul li {
+
+    margin-top: 10px;
+}
+.m_nav_list .nav_items{
+    font-family: var(--Integral-CF-fonts);
+    font-size: 20px;
+    color: #fff;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+/* mobile navbar css part end */
+/* banner section css part start  */
+.banner_main {
+    width: 100%;
+    background-color: #F2F0F1;
+}
+
+.banner_right {
+    width: 100%;
+    height: 100%;
+    background: url(../image/banner_main.png);
+    background-position: 95% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner_heading {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 45px;
+    color: #000;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+.banner_txt {
+    display: block;
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.banner_btn {
+    padding: 12px 60px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    font-family: var(--satoshi-fonts);
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.start_big {
+    position: absolute;
+    top: 12%;
+    left: 85%;
+}
+
+.start_small {
+    position: absolute;
+    top: 42%;
+    left: 4%;
+}
+
+.counter {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 30px;
+    color: #000;
+
+
+}
+
+.project-title {
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+/* banner section css part End */
+/* brand section css part start  */
+.brand_main {
+    padding: 15px 0px;
+    background-color: #000;
+}
+
+.brand_txt {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* brand section css part End */
+/* arival section css part start  */
+.arival_main {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.arival_b {
+    border-bottom: 1px solid #9A9A9A;
+    padding-bottom: 70px;
+}
+
+.section_heading {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 40px;
+    color: #000;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+.arival_c_top {
+    margin-bottom: 10px;
+}
+
+.a_p_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 14px;
+    color: #000;
+}
+
+.a_P_items {
+    font-size: 14px;
+    color: #FFC633;
+    margin-top: 5px;
+}
+
+.a_P_items_review {
+    margin-top: 5px;
+    font-family: var(--Integral-CF-fonts);
+    font-size: 13px;
+    color: #000;
+
+}
+
+.a_p_p {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.arival_btn {
+    padding: 8px 60px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 30px;
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    color: #000;
+}
+
+/* arival section css part End */
+/* BROWSE BY dress STYLE css part start  */
+.dress_style_main {
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 60px 60px;
+    border-radius: 30px;
+}
+
+.img_box {
+    height: 290px;
+    margin-top: 10px;
+}
+
+.img_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.mar-10{
+    margin-top: 50px;
+}
+
+/* BROWSE BY dress STYLE css part end */
+
+/* review section html css part start  */
+.page_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 40px;
+    color: #000;
+    padding-top: 30px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+/* slider section css part start  */
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden !important;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+    flex: 1 0 32.33%;
+    /* 20% width for 5 items in view */
+    padding: 25px;
+    background: #fff;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 1%;
+}
+
+.slide_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 25px;
+    margin: 5px 0px;
+    color: #000;
+}
+
+.slide_txt {
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    color: #000;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    color: #000;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev-btn {
+    right: 150px;
+}
+
+.next-btn {
+    right: 110px;
+}
+
+/* slider section css part end */
+/* review section html css part end */
+/* news later css part start  */
+.news_main {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 70px;
+
+}
+
+.news_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 28px;
+    color: #fff;
+    padding-right: 120px;
+    padding-left: 50px;
+}
+
+.news_input {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.input_placeholder {
+    position: absolute;
+    top: 19px;
+    left: 14px;
+    font-size: 18px;
+    color: #000;
+}
+
+.input_placeholder i {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.news_input input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 20px 0px 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.news_input input::placeholder {
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.news_btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: var(--Integral-CF-fonts);
+    font-size: 16px;
+    color: #000;
+
+
+}
+
+/* news later css part end */
+/* foter section css part start  */
+footer {
+    margin-top: 70px;
+    padding-bottom: 50px;
+
+}
+
+.footer_text {
+    font-family: var(--satoshi-fonts);
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.footer_social_icon_box {
+    margin-top: 30px;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: #000;
+    font-size: 22px;
+    transition: all linear 0.3s;
+
+}
+
+.icon-link:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+
+.footer_link_title {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 20px;
+    color: #000;
+}
+
+.footer_nav li {
+    margin-top: 10px;
+}
+
+.footer_nav_items {
+    font-family: var(--satoshi-fonts);
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+}
+
+.footer_bottom {
+    padding: 00px 0px !important;
+    padding-top: 30px !important;
+    padding-bottom: 10px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.footer_bottom_text {
+    font-family: var(--Integral-CF-fonts);
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px !important;
+
+}
+
+/* foter section css part end */
